@@ -1,3 +1,21 @@
+=============================== run ===================
+E:\iti (4 Monthes) frontend\day41 Source Control\Lab\ITI-git-test>node helloWorld
+Name is HAGAR , and age is 22
+Hello World
+
+E:\iti (4 Monthes) frontend\day41 Source Control\Lab\ITI-git-test>node helloITI
+Name is HAGAR , and age is 22
+Hello ITI
+
+
+
+
+
+
+
+
+
+============================= git commands =================================
 aqsa@DESKTOP-516NMCM MINGW64 /e/iti (4 Monthes) frontend/day41 Source Control/Lab/ITI-git-test (main)
 $ git status
 On branch main
