@@ -1,5 +1,5 @@
 # ITI-git-test
-##LAB 1
+## LAB 1
 
 Start new Repо:
 
