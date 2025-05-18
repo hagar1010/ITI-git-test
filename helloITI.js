@@ -1,11 +1,4 @@
-class Person {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
-    printData() {
-        return "Name is " + this.name + " , and age is " + this.age;
-    }
+class Hello {
     printHelloITI() {
         console.log("Hello ITI");
     }
@@ -14,7 +7,6 @@ class Person {
     }
 
 }
-const ME = new Person("HAGAR", 22);
-// console.log(ME.printData());
+const ME = new Hello;
 ME.printHelloITI()
-ME.printHelloITI()
+ME.printHelloGit()
