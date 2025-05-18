@@ -6,11 +6,11 @@ class Person {
   printData() {
     return "Name is " + this.name + " , and age is " + this.age;
   }
-  printHelloWorld() {
-    console.log("Hello World");
+  printHelloJava() {
+    console.log("Hello JAVA");
   }
 
 }
 const ME = new Person("HAGAR", 22);
 console.log(ME.printData());
-ME.printHelloWorld()
+ME.printHelloJava()
