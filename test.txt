@@ -1,0 +1,63 @@
+aqsa@DESKTOP-516NMCM MINGW64 /e/iti (4 Monthes) frontend/day41 Source Control/Lab/ITI-git-test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        helloITI.js
+        helloWorld.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+aqsa@DESKTOP-516NMCM MINGW64 /e/iti (4 Monthes) frontend/day41 Source Control/Lab/ITI-git-test (main)
+$ git add .
+
+aqsa@DESKTOP-516NMCM MINGW64 /e/iti (4 Monthes) frontend/day41 Source Control/Lab/ITI-git-test (main)
+$ git commit -m "hello world done"
+[main ce9aadb] hello world done
+ 2 files changed, 16 insertions(+)
+ create mode 100644 helloITI.js
+ create mode 100644 helloWorld.js
+
+aqsa@DESKTOP-516NMCM MINGW64 /e/iti (4 Monthes) frontend/day41 Source Control/Lab/ITI-git-test (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 496 bytes | 496.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hagar1010/ITI-git-test.git
+   d0cd764..ce9aadb  main -> main
+
+aqsa@DESKTOP-516NMCM MINGW64 /e/iti (4 Monthes) frontend/day41 Source Control/Lab/ITI-git-test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   helloITI.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+aqsa@DESKTOP-516NMCM MINGW64 /e/iti (4 Monthes) frontend/day41 Source Control/Lab/ITI-git-test (main)
+$ git add .
+
+aqsa@DESKTOP-516NMCM MINGW64 /e/iti (4 Monthes) frontend/day41 Source Control/Lab/ITI-git-test (main)
+$ git commit -m "hello ITI done"
+[main 1721bbf] hello ITI done
+ 1 file changed, 16 insertions(+)
+
+aqsa@DESKTOP-516NMCM MINGW64 /e/iti (4 Monthes) frontend/day41 Source Control/Lab/ITI-git-test (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 486 bytes | 486.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hagar1010/ITI-git-test.git
+   ce9aadb..1721bbf  main -> main
