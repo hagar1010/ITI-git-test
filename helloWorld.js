@@ -14,3 +14,6 @@ class Person {
 const ME = new Person("HAGAR", 22);
 console.log(ME.printData());
 ME.printHelloJava()
+
+
+
