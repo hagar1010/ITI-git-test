@@ -11,6 +11,8 @@ class Person {
   printHelloJava() {
     console.log("Hello JAVA edited hagar");
     console.log("updated");
+    console.log("again");
+    
   }
 
 }
